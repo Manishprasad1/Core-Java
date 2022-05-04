@@ -4,7 +4,7 @@
 package com.manish.Learning;
 
 /**
- * @author Manish123456
+ * @author Manish1234567
  *
  */
 
@@ -17,16 +17,21 @@ public class Core_Java {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		int i=10;
-		System.out.print(""+i);
-		
+	
+		/*
 	Dog d = new Dog();
 	
 	d.wagging();
 	d.sound="hoho";
 	d.barking();
 	d.wagging();
+	
+	*/
+		
+		
+		Formula f1 = new Formula();
+		System.out.println(f1.add(20, 40));
+		
 
 	}
 
