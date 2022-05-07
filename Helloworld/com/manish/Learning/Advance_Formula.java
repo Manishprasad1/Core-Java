@@ -11,9 +11,7 @@ public class Advance_Formula {
 		b=0;
 		c=0;
 	}
-	
-	
-	
+		
 	
 	public int add(int a,int b) {
 		this.a=a;
@@ -21,7 +19,6 @@ public class Advance_Formula {
 		System.out.println("Calling super class method");
 		System.out.println(a+b);
 		return a+b;
-	
 	}
 	
 	
