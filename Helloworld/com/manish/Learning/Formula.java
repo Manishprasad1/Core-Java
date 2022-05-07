@@ -8,6 +8,9 @@ public class Formula extends Advance_Formula{
 	 */
 	
 	//declare private variables
+	private static int main_menu=0;
+	private static int sub_menu=0;
+	
 	private int a,b,c;
 	public Formula() {
 		// TODO Auto-generated constructor stub
@@ -15,7 +18,6 @@ public class Formula extends Advance_Formula{
 		a=0;
 		b=0;
 		c=0;
-		
 	}
 	
 	
@@ -39,12 +41,6 @@ public class Formula extends Advance_Formula{
 		return c=a/b;
 	}
 
-	
-	//using super
-
-	
-	
-	
 	
 	
 	/// getter & setter methods
