@@ -14,7 +14,7 @@ public class Advance_Formula {
 	
 	
 	
-	//method 
+	
 	public int add(int a,int b) {
 		this.a=a;
 		this.b=b;

@@ -20,8 +20,9 @@ public class Formula extends Advance_Formula{
 	
 	
 	
-	//add 
+	//call super class as well as current class method with same names
 	public int add(int a, int b) {
+		//calling super class method
 		super.add(10, 15);
 		System.out.println("child class calling super method");
 		return c=a+b;
