@@ -1,6 +1,6 @@
 package com.manish.Learning;
 
-public class Formula {
+public class Formula extends Advance_Formula{
 	
 	/*
 	 * Purpose to declare all method used in calculator
@@ -11,13 +11,19 @@ public class Formula {
 	private int a,b,c;
 	public Formula() {
 		// TODO Auto-generated constructor stub
+		super();
 		a=0;
 		b=0;
 		c=0;
+		
 	}
+	
+	
 	
 	//add 
 	public int add(int a, int b) {
+		super.add(10, 15);
+		System.out.println("child class calling super method");
 		return c=a+b;
 	}
 	
@@ -27,10 +33,20 @@ public class Formula {
 	}
 	
 	//divide
+	
 	public float divide(int a, int b) {
 		return c=a/b;
 	}
 
+	
+	//using super
+
+	
+	
+	
+	
+	
+	/// getter & setter methods
 	/**
 	 * @return the a
 	 */

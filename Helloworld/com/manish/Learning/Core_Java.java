@@ -32,6 +32,7 @@ public class Core_Java {
 		Formula f1 = new Formula();
 		System.out.println(f1.add(20, 40));
 		
+		
 
 	}
 
